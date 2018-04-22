@@ -16,7 +16,7 @@ Also Terraform will deploy:
 - A Database using AWS RDS
 
 ## Terraform Project infrastructure
-
+```
 ├── modules
 │ └── code_pipeline
 │ └── ecs
@@ -45,14 +45,7 @@ Also Terraform will deploy:
       └── main.tf
       └── outputs.tf
       └── vars.tf
-
-
-
-
-├── production.tf
-├── production_key.pub
-├── terraform.tfvars
-└── variables.tf
+```
 
 ## Requeriments
 In order to try these configurations and deploy this infrastructure at AWS
